@@ -65,7 +65,7 @@ h2{
    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
    background: #34ebc0;
 }
-#get{
+.get1{
    width                : 100%;
    padding              : 40px 0 40px 0;
    background-image     : url('/img/image2.jpg');
@@ -81,7 +81,7 @@ h2{
 #pc h3{
    color: #000;
 }
-#yt{
+.yt1{
    padding              : 40px 0 25px 0;
    background-image     : url('/img/image3.jpg');
    background-size      : cover; 
@@ -114,7 +114,7 @@ h2{
    color    : #fff;
    margin   : 0px;
 }
-#head{
+.head1{
    padding              : 60px 0 60px 0;
    background-image     : url('/img/image2.jpg');
    background-size      : cover; 
@@ -142,7 +142,7 @@ h2{
    margin-right: 5px;
    margin-bottom: 0px; 
 }
-#service{
+.service1{
    padding              : 60px 0 60px 0;
    background-image     : url('/img/image3.jpg');
    background-size      : cover;
@@ -150,7 +150,7 @@ h2{
    background-attachment: fixed;
    background-position  : center bottom;
 }
-#blog{
+.blog1{
    padding              : 60px 0 60px 0;
    background-image     : url('/img/b.jpg');
    background-size      : cover;
@@ -161,7 +161,7 @@ h2{
 #blog-post img{
    height: 150px;
 }
-#contact{
+.contact1{
    padding              : 60px 0 60px 0;
    background-image     : url('/img/b.jpg');
    background-size      : cover;
