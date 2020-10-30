@@ -1,0 +1,212 @@
+*{
+   margin    : 0;
+   padding   : 0;
+   box-sizing: border-box; 
+}
+.body{
+   color: #fff;
+}
+h3,
+h2{
+   color: #fff;
+}
+.navbar{
+   background: black;
+}
+.carousel-caption{
+   padding-bottom: 160px;
+}
+.carousel-caption h3{
+   font-size: 50px;
+   color    : #fff;
+}
+.carousel-caption p{
+   font-size: 23px;
+}
+.card .fas,
+.card .fab{
+   font-size    : 50px;
+   margin-bottom: 20px;
+}
+.card h3{
+   margin-top   : 0px;
+   margin-bottom: 3px;
+   font-size    : 31px;
+   color        : #000;
+}
+.card h2{
+   margin-top   : 0px;
+   margin-bottom: 3px;
+   font-size    : 31px;
+}
+.card p{
+   margin-bottom: 0px;
+   margin-top   : 0px;
+}
+.card{
+   transition: 0.6s;
+   padding   : 16px 0 16px 0;
+}
+.card-border{
+   border: 0.05px solid rgba(0,0,0,0.2);
+}
+.card-padding{
+   padding: 0px;
+}
+.card1:hover{
+   box-shadow: 0px 0px 10px rgba(0,0,0,0.6);
+   background: orange;
+}
+.card2:hover {
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+   background: #eb3434;
+}
+.card3:hover {
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+   background: #34ebc0;
+}
+#get{
+   width                : 100%;
+   padding              : 40px 0 40px 0;
+   background-image     : url('/img/image2.jpeg');
+   background-size      : cover;
+   background-position  : center top;
+   background-repeat    : no-repeat;
+   background-attachment: fixed;
+   color                : #fff;
+}
+#get p{
+   margin-bottom: 0px; 
+}
+#pc h3{
+   color: #000;
+}
+#yt{
+   padding              : 40px 0 25px 0;
+   background-image     : url('/img/image3.jpeg');
+   background-size      : cover; 
+   background-repeat    : no-repeat;
+   background-attachment: fixed;
+   background-position  : center top;
+}
+#yt a{
+   font-size: 70px;
+}
+#gallary img{
+   width : 100%;
+   height: 150px;
+}
+#gallary h2{
+   margin       : 0px;
+   margin-bottom: 6px;
+   color        : #000;
+}
+#gallary p{
+   margin       : 0px;
+   margin-bottom: 20px;
+}
+#copy{
+   background: #000;
+}
+#copy p{
+   font-size: 20px;
+   padding  : 14px 0 14px 0;
+   color    : #fff;
+   margin   : 0px;
+}
+#head{
+   padding              : 60px 0 60px 0;
+   background-image     : url('/img/image2.jpeg');
+   background-size      : cover; 
+   background-repeat    : no-repeat;
+   background-attachment: fixed;
+   background-position  : center bottom; 
+}
+#text img{
+   padding-top: 100px;
+}
+#faq a{
+   text-decoration: none;
+   color          : #000;
+   font-size      : 20px;
+}
+#faq .card-header1{
+   padding         : .75rem 1.25rem;
+   margin-bottom   : 0;
+   background-color: rgba(0, 0, 0, .03);
+   border-bottom   : 1px solid rgba(0, 0, 0, .125);
+   border-radius   : .60rem
+}
+#plan .fa-check{
+   font-size: 15px;
+   margin-right: 5px;
+   margin-bottom: 0px; 
+}
+#service{
+   padding              : 60px 0 60px 0;
+   background-image     : url('/img/image3.jpeg');
+   background-size      : cover;
+   background-repeat    : no-repeat;
+   background-attachment: fixed;
+   background-position  : center bottom;
+}
+#blog{
+   padding              : 60px 0 60px 0;
+   background-image     : url('/img/b.jpg');
+   background-size      : cover;
+   background-repeat    : no-repeat;
+   background-attachment: fixed;
+   background-position  : center bottom;
+}
+#blog-post img{
+   height: 150px;
+}
+#contact{
+   padding              : 60px 0 60px 0;
+   background-image     : url('/img/b.jpg');
+   background-size      : cover;
+   background-repeat    : no-repeat;
+   background-attachment: fixed;
+   background-position  : center bottom;
+}
+#contact-row{
+   background: #f54242;
+}
+
+
+
+@media(max-width: 800px){
+   
+   .carousel-caption p{
+   font-size        : 15px;
+   }
+   .carousel-caption h3{
+      font-size     : 19px;
+   }
+   .carousel-caption {
+      padding-bottom: 15px;
+   }
+   #gallary img {
+      width         : 100%;
+      height        : 240px;
+   }
+   #newsletter .margin{
+      margin-bottom : 20px;
+   }
+   #text img{
+      padding-top   : 20px; 
+   }
+   #testemonial .slider{
+      margin        : 0 15px 0 15px; 
+   }
+   #faq .accordion-padding{
+      margin-top    : 8px;
+   }
+   #blog-post img{
+      height        : 300px;
+   }
+   .card-margin{
+      margin-top: 20px;
+   }
+   
+}
