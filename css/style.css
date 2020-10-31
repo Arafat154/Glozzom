@@ -68,7 +68,7 @@ h2{
 .get1{
    width                : 100%;
    padding              : 40px 0 40px 0;
-   background-image     : url('/img/image2.jpg');
+   background-image     : url('../img/image2.jpg');
    background-size      : cover;
    background-position  : center top;
    background-repeat    : no-repeat;
@@ -83,7 +83,7 @@ h2{
 }
 .yt1{
    padding              : 40px 0 25px 0;
-   background-image     : url('/img/image3.jpg');
+   background-image     : url('../img/image3.jpg');
    background-size      : cover; 
    background-repeat    : no-repeat;
    background-attachment: fixed;
@@ -116,7 +116,7 @@ h2{
 }
 .head1{
    padding              : 60px 0 60px 0;
-   background-image     : url('/img/image2.jpg');
+   background-image     : url('../img/image2.jpg');
    background-size      : cover; 
    background-repeat    : no-repeat;
    background-attachment: fixed;
@@ -144,7 +144,7 @@ h2{
 }
 .service1{
    padding              : 60px 0 60px 0;
-   background-image     : url('/img/image3.jpg');
+   background-image     : url('../img/image3.jpg');
    background-size      : cover;
    background-repeat    : no-repeat;
    background-attachment: fixed;
@@ -152,7 +152,7 @@ h2{
 }
 .blog1{
    padding              : 60px 0 60px 0;
-   background-image     : url('/img/b.jpg');
+   background-image     : url('../img/b.jpg');
    background-size      : cover;
    background-repeat    : no-repeat;
    background-attachment: fixed;
@@ -163,7 +163,7 @@ h2{
 }
 .contact1{
    padding              : 60px 0 60px 0;
-   background-image     : url('/img/b.jpg');
+   background-image     : url('../img/b.jpg');
    background-size      : cover;
    background-repeat    : no-repeat;
    background-attachment: fixed;
